@@ -1,0 +1,711 @@
+﻿.disabledColor {    
+    background-color : #E5E5E5;
+}
+
+.row-fluid {
+    word-wrap: break-word;
+}
+
+#footer {
+    padding-right: 50px;
+    color: white;
+}
+
+.widthAuto {
+    width: auto !important;
+}
+
+.select-width {
+    width: 300px;
+}
+
+.input-text-width {
+    width: 300px;
+}
+
+.user-Info {
+    margin: 5px 10px;
+}
+
+
+/*date picker */
+a.dp-choose-date {
+	float: left;
+	width: 250px;
+	height: 30px;
+    border-radius: 3px;
+	padding: 7px;
+	margin: 5px 3px 0;
+	display: block;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url(calendar.gif) no-repeat; 
+}
+a.dp-choose-date.dp-disabled {
+	background-position: 0 -20px;
+	cursor: default;
+}
+/* makes the input field shorter once the date picker code
+ * has run (to allow space for the calendar icon
+ */
+input.dp-applied {
+	width: 140px;
+	float: left;
+}
+
+/* Upload */
+
+#holder {
+    border: 5px dashed #ccc;
+    min-height: 150px;
+    margin: 20px auto;
+}
+
+    #holder.hover {
+        border: 5px dashed #0c0;
+    }
+
+    #holder p {
+        margin: 5px;
+        font-size: 14px;
+    }
+
+.margin-title {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#listIn {
+    border: 5px solid #ccc;
+    min-height: 150px;
+    margin: 20px auto;
+}
+
+    #listIn.hover {
+        border: 5px solid #0c0;
+    }
+
+    #listIn p {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+#listOut {
+    border: 5px solid #ccc;
+    min-height: 150px;
+    margin: 20px auto;
+}
+
+    #listOut.hover {
+        border: 5px solid #0c0;
+    }
+
+    #listOut p {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+.percentage {
+    float: left;
+    margin-left: 5px;
+    margin-top: -45px;
+    position: absolute;
+    display: block;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.progress {
+    width: 100%;
+}
+
+.text-bold {
+    font-weight: bold;
+    color: black;
+}
+
+.aPercentage {
+    float: left;
+    margin-top: -25px;
+    position: absolute;
+    display: block;
+}
+
+.cancelado {
+    color: red;
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+}
+
+/* Upload */
+
+/* ************************************************** Centrar Rows y Columns en Pantalla ************************************************** */
+
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    text-align: left;
+    margin-right: -4px;
+}
+
+.col-centered-top {
+    display: inline-block;
+    float: none;
+    text-align: left;
+    margin-right: -4px;
+    vertical-align: top;
+}
+
+.item {
+    width: 100%;
+    height: 100%;
+    padding: 16px 8px;
+    display: table;
+}
+
+.content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.content-left {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+/* ************************************************** Centrar Rows y Columns en Pantalla ************************************************** */
+
+/* Template */
+
+html, body {
+    height: 100%;
+}
+
+.navbar .brand {
+    max-height: 50px;
+    overflow: visible;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar {
+    border-radius: 0 !important;
+}
+
+    .navbar a.navbar-brand {
+        padding: 0px 15px 0px;
+    }
+
+.imageLogo {
+    margin-top: 7px;
+    margin-left: -12px;
+}
+
+.textTitleHeader {
+    color: #fff;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.container {
+    min-height: 83.4%;
+    height: auto;
+    margin-bottom: 1%;
+}
+
+/*#footer {
+    width: 100%;
+    height: 40px;
+    background-color: #004c91;
+    border-color: #003b70;
+    padding-top: 7px;
+    padding-right: 5px;
+    bottom: 0;
+    position: absolute;
+}*/
+
+.footerText {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: right;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+/* Textbox */
+
+.textbox {
+    border: 1px solid #b3b3b3;
+    background: #FFFFFF;
+    width: 250px;
+    height: 30px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -moz-box-shadow: 1px 1px 1px #ccc;
+    -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    padding: 7px;
+    font-size: 14px;
+}
+
+::-webkit-input-placeholder {
+    color: #424242;
+}
+
+:-moz-placeholder {
+    color: #424242;
+}
+
+::-moz-placeholder {
+    color: #424242;
+}
+
+:-ms-input-placeholder {
+    color: #424242;
+}
+
+/* CheckBox */
+
+.check {
+    width: 25px;
+    margin: 3px 5px;
+    position: relative;
+}
+
+    .check label {
+        cursor: pointer;
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        top: 0;
+        left: -1px;
+        background: #FFFFFF;
+        border: 1px solid #ddd;
+    }
+
+        .check label:after {
+            opacity: 0.2;
+            content: '';
+            position: absolute;
+            width: 10.5px;
+            height: 5.5px;
+            background: transparent;
+            top: 7px;
+            left: 7px;
+            border: 3px solid #FFFFFF;
+            border-top: none;
+            border-right: none;
+            -webkit-transform: rotate(-45deg);
+            -moz-transform: rotate(-45deg);
+            -o-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+        }
+
+        .check label:hover::after {
+            opacity: 0.7;
+            border-color: #26ca28;
+        }
+
+    .check input[type=checkbox]:checked + label:after {
+        opacity: 1;
+        border-color: #26ca28;
+    }
+
+.divCheckWithTextMain {
+    width: 90%;
+    height: 40px;
+}
+
+.divCheckWithTextFirst {
+    width: 7%;
+    float: left;
+}
+
+.divCheckWithTextSecond {
+    width: 74%;
+    float: left;
+    padding-top: 6px;
+    padding-left: 5px;
+    color: #424242;
+}
+
+/* Login Styles */
+
+.contentLogin {
+    width: 80%;
+    margin: 5% auto 5% auto;
+}
+
+.contentLoginTitle {
+    width: 100%;
+    text-align: center;
+    color: #004c91;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.contentLoginLeft {
+    width: 40%;
+    float: left;
+    text-align: right;
+    margin: 1%;
+    padding-top: 2%;
+    padding-right: 30px;
+    padding-bottom: 2%;
+    padding-left: 0px;
+}
+
+.contentLoginRight {
+    width: 55%;
+    float: left;
+    text-align: left;
+    margin: 1%;
+}
+
+.divSeparator {
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+     border-radius: 25px;
+}
+
+.divButton {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.roundCorner
+{
+    border-radius: 25px;
+    background-color: #4F81BD;
+    color:#004c91;
+    text-align :center;
+    font-family:arial, helvetica, sans-serif;
+    padding: 5px 10px 10px 10px;
+    font-weight:bold;
+    width:100px;
+    height:30px;
+} 
+/* Formularios en general*/
+.contentForm {
+    width: 80%;
+    margin: 5% auto 5% auto;
+}
+
+.ie11 .contentForm {
+    background-color: orange;
+    width: 80%;
+    margin: 5% auto 5% auto;
+}
+
+.contentFormTitle {
+    width: 100%;
+    text-align: center;
+    color: #004c91;
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 35px;
+}
+
+.contentFormLeft {
+    width: 50%;
+    float: left;
+}
+
+.contentFormRight {
+    width: 50%;
+    float: right;
+}
+
+.contentFormLabel {
+    width: 40%;
+    height: 30px;
+    float: left;
+    text-align: right;
+    padding-top: 4px;
+    padding-right: 5px;
+}
+
+.contentFormTextBox {
+    width: 58%;
+    float: left;
+    padding-left: 3px;
+}
+
+.contentFormCompleteWithSpace {
+    width: 100%;
+    height: 10px;
+    text-align: right;
+    float: left;
+}
+
+.contentFormCompleteWithSpaceButton {
+    width: 100%;
+    height: 25px;
+    text-align: right;
+    float: left;
+}
+
+.contentFormComplete {
+    width: 100%;
+    text-align: right;
+    padding-right: 10px;
+    float: left;
+}
+
+
+
+/* Medias */
+@media (min-width: 320px ) and (max-width: 480px) {
+    .contentLoginLeft {
+        width: 100%;
+        text-align: center;
+        padding-right: 5px;
+    }
+
+    .contentLoginRight {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .divSeparator {
+        margin-left: 0;
+    }
+
+    .divCheckWithTextSecond {
+        padding-left: 18px;
+    }
+
+    .divButton {
+        text-align: right;
+    }
+
+    .textbox {
+        width: 90%;
+    }
+
+    /*#footer {
+        position: inherit;
+    }*/
+
+    .contentFormLeft {
+        width: 100%;
+    }
+
+    .contentFormRight {
+        width: 100%;
+    }
+
+    .contentFormLabel {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contentFormTextBox {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contentFormComplete {
+        padding-bottom: 15px;
+    }
+}
+
+@media (min-width: 480px ) and (max-width: 800px) {
+    .center-container {
+        min-height: 555px;
+        height: auto;
+    }
+
+    .contentLoginLeft {
+        width: 100%;
+        text-align: center;
+        padding-right: 5px;
+    }
+
+    .contentLoginRight {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .divSeparator {
+        margin-left: 0;
+    }
+
+    .divCheckWithTextSecond {
+        padding-left: 18px;
+    }
+
+    .divButton {
+        text-align: right;
+    }
+
+    .textbox {
+        width: 90%;
+    }
+
+    /*#footer {
+        position: absolute;
+    }*/
+
+    .contentFormLeft {
+        width: 100%;
+    }
+
+    .contentFormRight {
+        width: 100%;
+    }
+
+    .contentFormLabel {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contentFormTextBox {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 640px ) and (max-width: 960px) {
+    .contentLoginLeft {
+        width: 40%;
+        text-align: center;
+        padding-right: 5px;
+    }
+
+    .contentLoginRight {
+        width: 55%;
+    }
+
+    .divSeparator {
+        margin-left: 0;
+    }
+
+    .divCheckWithTextSecond {
+        padding-left: 5px;
+        margin-left: 12px;
+    }
+
+    .divButton {
+        text-align: right;
+    }
+
+    .textbox {
+        width: 80%;
+    }
+
+    /*#footer {
+        position: absolute;
+    }*/
+
+    .contentFormLeft {
+        width: 100%;
+        float: left;
+        padding-bottom: 10px;
+    }
+
+    .contentFormRight {
+        width: 100%;
+        float: right;
+    }
+
+    .contentFormLabel {
+        width: 40%;
+        height: 30px;
+        padding-top: 4px;
+        padding-right: 5px;
+    }
+
+    .contentFormTextBox {
+        width: 58%;
+        padding-left: 3px;
+    }
+}
+
+@media (min-width: 768px ) and (max-width: 1280px) {
+    .contentLoginLeft {
+        width: 40%;
+        text-align: center;
+        padding-right: 5px;
+    }
+
+    .contentLoginRight {
+        width: 55%;
+    }
+
+    .divSeparator {
+        margin-left: 0;
+    }
+
+    .divCheckWithTextSecond {
+        padding-left: 5px;
+    }
+
+    .divButton {
+        text-align: right;
+    }
+
+    .textbox {
+        width: 80%;
+    }
+
+    /*#footer {
+        position: absolute;
+    }*/
+
+    .contentFormLeft {
+        width: 100%;
+        float: left;
+        padding-bottom: 10px;
+    }
+
+    .contentFormRight {
+        width: 100%;
+        float: right;
+    }
+
+    .contentFormLabel {
+        width: 40%;
+        height: 30px;
+        padding-top: 4px;
+        padding-right: 5px;
+    }
+
+    .contentFormTextBox {
+        width: 58%;
+        padding-left: 3px;
+    }
+}
+
+/* Template */

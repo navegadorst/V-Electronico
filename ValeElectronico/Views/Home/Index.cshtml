@@ -1,0 +1,30 @@
+﻿@model ValeElectronico.Models.modelUser
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="contentLogin">
+        <div class="contentLoginTitle">EVALUACIONES SISTEMAS</div>
+        <div class="contentLoginLeft">
+            <img alt="Iniciar Sesión" src="~/Images/security_lock.png" />
+        </div>
+        <div class="contentLoginRight">
+            <div class="divSeparator">
+                @Html.TextBoxFor(m => m.UserName, new { autocomplete = "off", Id = "lbl_UserName", Class = "textbox", placeholder = "UserName", maxlength = 15 })
+            </div>
+            <div class="divSeparator"></div>
+            <div class="divSeparator">
+                @Html.PasswordFor(m => m.Password, new { autocomplete = "off", Id = "lbl_Password", Class = "textbox", placeholder = "Password", maxlength = 15 })
+            </div>
+            <div class="divSeparator"></div>
+            <div class="divSeparator">
+                <div class="divButton">
+                    <input type="submit" onclick="JavascriptFunction()" class="btn btn-primary btn-block" style="width: 70%; margin-left: -15%" value="Autenticarse" />
+                </div>
+            </div>
+        </div>
+    </div>
+}
