@@ -1,0 +1,99 @@
+﻿@model ValeElectronico.Models.modelUser
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    @Styles.Render("~/Content/css")
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="login-wrap">
+                <div class="login-html">
+                    <p><img alt="Walmart" src="~/Images/logo.png" /></p>
+                    <input  id="tab-1" type="radio" name="tab" class="sign-in" checked>
+                    <label for="tab-1" class="tab">Acceso a Vale Electronico</label>
+                    
+                    <input id="tab-2" type="radio" name="tab" class="sign-up">
+                    <label for="tab-2" class="tab"></label>
+                    <div class="login-form">
+                        <div class="sign-in-htm">
+                            <div class="group">
+                                <label for="user" class="label">Usuario</label>
+                                @Html.TextBoxFor(m => m.UserName, new { @class = "input" })
+                                @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="group">
+                                <label for="pass" class="label">Contraseña</label>
+                                @Html.PasswordFor(m => m.Password, new { @class = "input" })
+                            </div>
+                            <div class="group">
+                                <input type="submit" class="button" value="Acceder">
+                            </div>
+                            <div class="hr"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @*<div class="contentLogin">
+                    <div class="contentLoginTitle">EVALUACIONES SISTEMAS</div>
+                    <div class="contentLoginLeft">
+                        <img alt="Iniciar Sesión" src="~/Images/security_lock.png" />
+                    </div>
+                    <div class="contentLoginRight">
+                        <div class="divSeparator">
+                            @Html.TextBoxFor(m => m.UserName, new { autocomplete = "off", Id = "lbl_UserName", Class = "textbox", placeholder = "UserName", maxlength = 15 })
+                        </div>
+                        <div class="divSeparator"></div>
+                        <div class="divSeparator">
+                            @Html.PasswordFor(m => m.Password, new { autocomplete = "off", Id = "lbl_Password", Class = "textbox", placeholder = "Password", maxlength = 15 })
+                        </div>
+                        <div class="divSeparator"></div>
+                        <div class="divSeparator">
+                            <div class="divButton">
+                                <input type="submit" onclick="JavascriptFunction()" class="btn btn-primary btn-block" style="width: 70%; margin-left: -15%" value="Autenticarse" />
+                            </div>
+                        </div>
+                    </div>
+                </div>*@
+        }
+
+        @*<div class="login-wrap">
+            <div class="login-html">
+                <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Acceso a Vale Electronico</label>
+                <input id="tab-2" type="radio" name="tab" class="sign-up">
+                <label for="tab-2" class="tab"></label>
+                <div class="login-form">
+                    <div class="sign-in-htm">
+                        <div class="group">
+                            <label for="user" class="label">Usuario</label>
+                            <input id="user" type="text" class="input">
+                        </div>
+                        <div class="group">
+                            <label for="pass" class="label">Contraseña</label>
+                            <input id="pass" type="password" class="input" data-type="password">
+                        </div>
+                       
+                        <div class="group">
+                            <input type="submit" class="button" value="Acceder">
+                        </div>
+                        <div class="hr"></div>
+                      
+                    </div>
+                  
+                </div>
+            </div>
+        </div>*@
+
+    </div>
+</body>
+</html>

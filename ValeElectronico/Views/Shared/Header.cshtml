@@ -1,22 +1,68 @@
-﻿<header>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand">
-                    <div class="imageLogo">
-                        <img alt="Walmart" src="~/Images/logo.png" />
-                    </div>
-                </a>
-            </div>
-            <div class="navbar-collapse collapse navbar-default-collapse navbar-scoll">
-                <ul class="nav navbar-nav">
-                    <li class="active">
-                        <div class="textTitleHeader">
-                            <h4>EVALUACIONES SISTEMAS</h4>
+﻿@*<header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand">
+                        <div class="imageLogo">
+                            <img alt="Walmart" src="~/Images/logo.png" />
                         </div>
-                    </li>
-                </ul>
+                    </a>
+                </div>
+                <div class="navbar-collapse collapse navbar-default-collapse navbar-scoll">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <div class="textTitleHeader">
+                                <h4>EVALUACIONES SISTEMAS</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
+        </nav>
+    </header>*@
+
+
+
+@*<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand">
+                <div class="imageLogo">
+                    <img alt="Walmart" src="~/Images/logo.png" />
+                </div>
+            </a>
         </div>
-    </nav>
-</header>
+        <div class="navbar-collapse collapse navbar-default-collapse navbar-scoll">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <div class="textTitleHeader">
+                        <h4>EVALUACIONES SISTEMAS</h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>*@
+
+
+<nav class="navbar navbar-expand-lg navbar-default">
+    <div class="container">
+        <a class="navbar-brand" href='@Url.Action("Index", "Home", new { area = "" })'>
+            @*<div class="imageLogo">*@
+                <img alt="Walmart" src="~/Images/logo.png" />
+            @*</div>*@
+        </a>
+        @*@Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav mr-auto">
+                <li class="nav-item">@Html.ActionLink("Home", "Index", "Home", null, new { @class = "nav-link" })</li>
+                <li class="nav-item">@Html.ActionLink("About", "About", "Home", null, new { @class = "nav-link" })</li>
+                <li class="nav-item">@Html.ActionLink("Contact", "Contact", "Home", null, new { @class = "nav-link" })</li>
+            </ul>
+            @*@Html.Partial("_LoginPartial")*@
+        </div>
+    </div>
+</nav>

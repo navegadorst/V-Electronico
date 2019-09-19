@@ -23,3 +23,9 @@ C:\AlexSystem\Developer\GitReposDev\V-Electronico\ValeElectronico\bin\System.Web
 C:\AlexSystem\Developer\GitReposDev\V-Electronico\ValeElectronico\bin\System.Web.WebPages.Deployment.xml
 C:\AlexSystem\Developer\GitReposDev\V-Electronico\ValeElectronico\bin\System.Web.WebPages.Razor.xml
 C:\AlexSystem\Developer\GitReposDev\V-Electronico\ValeElectronico\obj\Release\ValeElectronico.csprojAssemblyReference.cache
+C:\AlexSystem\Developer\GitReposDev\V-Electronico\ValeElectronico\bin\Microsoft.IdentityModel.Logging.dll
+C:\AlexSystem\Developer\GitReposDev\V-Electronico\ValeElectronico\bin\Microsoft.IdentityModel.Tokens.dll
+C:\AlexSystem\Developer\GitReposDev\V-Electronico\ValeElectronico\bin\RestSharp.dll
+C:\AlexSystem\Developer\GitReposDev\V-Electronico\ValeElectronico\bin\Microsoft.IdentityModel.Logging.xml
+C:\AlexSystem\Developer\GitReposDev\V-Electronico\ValeElectronico\bin\Microsoft.IdentityModel.Tokens.xml
+C:\AlexSystem\Developer\GitReposDev\V-Electronico\ValeElectronico\bin\RestSharp.xml
